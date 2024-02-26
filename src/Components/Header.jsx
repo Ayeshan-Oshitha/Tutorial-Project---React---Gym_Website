@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Header.css'
 import Logo from '../assets/logo.png'
 import Bars from '../assets/bars.png'
+import { Link } from 'react-scroll'
+
 
 const Header = () => {
 
@@ -9,7 +11,7 @@ const Header = () => {
     const [menuOpened, setMenuOpened] = useState(false);
 
   return (
-    <div className="header">
+    <div className="header" id='header'>
 
         <img className="logo" src ={Logo} alt='Website Logo' />
 
@@ -22,11 +24,48 @@ const Header = () => {
             </div>
         ) : (
             <ul className='header-menu'>
-            <li onClick={()=> setMenuOpened(false)}>Home</li>
-            <li onClick={()=> setMenuOpened(false)}>Programs</li>
-            <li onClick={()=> setMenuOpened(false)}>Why us</li>
-            <li onClick={()=> setMenuOpened(false)}>Plans</li>
-            <li onClick={()=> setMenuOpened(false)}>Testimonials</li>
+            <li >
+                    <Link
+                        onClick={()=> setMenuOpened(false)}
+                        to='header'   //find the ID, or can give 'hero' too
+                        activeClass='active'  //Default 
+                        spy={true}
+                        smooth={true}
+                    >Home</Link>
+            </li>
+
+            <li>
+                    <Link
+                        onClick={()=> setMenuOpened(false)}
+                        to='programs'   //find the ID
+                        spy={true}
+                        smooth={true}
+                    >Programs</Link>
+            </li>
+            <li>
+                    <Link
+                        onClick={()=> setMenuOpened(false)}
+                        to='reasons'   //find the ID
+                        spy={true}
+                        smooth={true}
+                    >Why us</Link>
+            </li>
+            <li>
+                    <Link
+                        onClick={()=> setMenuOpened(false)}
+                        to='Plans'   //find the ID
+                        spy={true}
+                        smooth={true}
+                    >Plans</Link>
+            </li>
+            <li>
+                    <Link
+                        onClick={()=> setMenuOpened(false)}
+                        to='testimonials'   //find the ID
+                        spy={true}
+                        smooth={true}
+                    >Testimonials</Link>
+            </li>
         </ul>
 
         )}

@@ -15,7 +15,7 @@ const Testimonials = () => {
 
   return (
     
-    <div className="Testimonials">
+    <div className="Testimonials" id='testimonials'>
 
         <div className="left-t">
 
