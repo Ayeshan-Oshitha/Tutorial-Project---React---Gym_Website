@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Static Gym Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive gym website designed for fitness enthusiasts, featuring a clean and intuitive interface with smooth animations for an enhanced user experience.
 
-## Available Scripts
+## Technologies Used
+- **React.js**: For building the dynamic frontend.
+- **Tailwind CSS**: For fast and efficient styling with utility-first classes.
+- **ShadCN UI**: To enhance the UI with sleek and customizable components.
 
-In the project directory, you can run:
+## Features
+- Well-structured layout for easy navigation.
+- Mobile responsiveness for seamless experience across devices.
+- Smooth animations to make the browsing experience more engaging.
+- Clean and minimal design focused on user experience.
 
-### `npm start`
+This project provided an opportunity to experiment with UI/UX principles while ensuring a smooth and intuitive interface. It was a great way to refine frontend development skills and explore modern design techniques.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ScreenShots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![React Gym 1](https://github.com/user-attachments/assets/d34f11d2-978c-4b3e-9880-ce02e3f5deca)
+![React Gym 2](https://github.com/user-attachments/assets/ec86384f-e8f1-451b-b2a5-8558e32ea263)
+![React Gym 3](https://github.com/user-attachments/assets/e08a7b83-f6fe-4eb9-94c1-d23e5f1cb200)
+![React Gym 4](https://github.com/user-attachments/assets/14878b7c-5219-4183-81f4-95b5718e1918)
+![React Gym 5](https://github.com/user-attachments/assets/f304f54c-f357-4c88-8d9c-d4391d12e71a)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
