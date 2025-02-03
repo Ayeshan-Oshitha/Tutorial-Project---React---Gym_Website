@@ -2,10 +2,14 @@
 
 A modern, responsive gym website designed for fitness enthusiasts, featuring a clean and intuitive interface with smooth animations for an enhanced user experience.
 
+<br/>
+
 ## Technologies Used
 - **React.js**: For building the dynamic frontend.
 - **Tailwind CSS**: For fast and efficient styling with utility-first classes.
 - **ShadCN UI**: To enhance the UI with sleek and customizable components.
+
+  <br/>
 
 ## Features
 - Well-structured layout for easy navigation.
@@ -14,6 +18,8 @@ A modern, responsive gym website designed for fitness enthusiasts, featuring a c
 - Clean and minimal design focused on user experience.
 
 This project provided an opportunity to experiment with UI/UX principles while ensuring a smooth and intuitive interface. It was a great way to refine frontend development skills and explore modern design techniques.
+
+<br/>
 
 ## ScreenShots
 
